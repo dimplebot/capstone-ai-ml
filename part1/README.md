@@ -1,4 +1,4 @@
-Part 1 — Data Acquisition, Cleaning, and Exploratory Analysis
+Part 1 - Data Acquisition, Cleaning, and Exploratory Analysis
 
 Dataset Details: 
 
