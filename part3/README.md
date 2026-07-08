@@ -1,4 +1,4 @@
-Part 3 - Advanced Modeling - Ensembles, Tuning, and Full ML Pipeline
+**Part 3 - Advanced Modeling - Ensembles, Tuning, and Full ML Pipeline**
 
 A baseline Decision tree classifier is trained using the default settings max_depth=None. The model achieved 100% training accuracy and 85.07% testing accuracy. The perfect training accuracy with the lower testing accuracy shows that the model is overfitting. This means it has learned the training data too closely and does not perform as well on new or unseen data. Decision trees are high-variance models because they choose the best split at each step based only on the training data. Since earlier decisions cannot be changed, even small changes in the training data can create a very different tree, making the model more likely to overfit.
 
@@ -36,12 +36,15 @@ Manual learning curve is created by training the best random forest pipeline on 
 
 The best Random Forest pipeline obtained from GridSearchCV was saved as best_model.pkl using joblib.dump(). The saved model is successfully reloaded using joblib.load(), and predictions are generated for two manually created test samples. The model predicted the classes [0, 1] without any errors confirming that the serialized model can be reused for future predictions without retraining.
 
-Model Comparison:
-5-Fold CV mean AUC:
+**Model Comparison:**
+
+**5-Fold CV mean AUC:**
 Logistic regression(0.9466); Decision tree(maxdepth=5)(0.9409); Random forest(0.9479); Gradient boosting(0.9501)
-5-Fold CV std AUC:
+
+**5-Fold CV std AUC:**
 Logistic regression(0.0170); Decision tree(maxdepth=5)(0.0168); Random forest(0.0170); Gradient boosting(0.0166)
-Test AUC:
+
+**Test AUC:**
 Logistic regression(0.9603); Decision tree(maxdepth=5)(0.921); Random forest(0.955); Gradient boosting(0.963)
 
 Among all the models evaluated Gradient boosting is the recommended model because it achieved the highest test ROC-AUC (0.9633) and the highest 5-fold cross-validation mean AUC (0.9501). It also had the lowest standard deviation (0.0166), showing that its performance was consistent across different data splits. Although logistic regression and random forest also performed well Gradient boosting provided the best overall balance between prediction accuracy, generalization, and robustness. Therefore it is the most suitable model for predicting whether insurance charges are likely to be high or low.

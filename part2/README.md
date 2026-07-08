@@ -1,4 +1,4 @@
-Part 2 - Supervised Machine Learning Model - Build, Train and Evaluate
+**Part 2 - Supervised Machine Learning Model - Build, Train and Evaluate**
 
 Loaded the cleaned_data.csv from part 1
 
