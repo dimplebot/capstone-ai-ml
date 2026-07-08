@@ -1,14 +1,14 @@
-Part 1 - Data Acquisition, Cleaning, and Exploratory Analysis
+**Part 1 - Data Acquisition, Cleaning, and Exploratory Analysis**
 
-Dataset Details: 
+**Dataset Details:** 
 
-Dataset Name: Health Insurance Cost & Risk Dataset
+**Dataset Name:** Health Insurance Cost & Risk Dataset
 
-Source: Kaggle
+**Source:** Kaggle
 
-Dataset Link: https://www.kaggle.com/datasets/mjawad17/health-insurance-cost-and-risk-dataset
+**Dataset Link:** https://www.kaggle.com/datasets/mjawad17/health-insurance-cost-and-risk-dataset
 
-Description: The Health Insurance Cost & Risk Dataset is used to predict individual medical insurance charges using demographic, lifestyle, health, and socioeconomic factors. It contains 1,338 records and 12 attributes, including age, sex, BMI, number of children, smoking status, region, blood pressure, exercise frequency, pre-existing medical conditions, occupation risk, annual income, and the target variable charges.This dataset was selected because it contains a diverse combination of numerical, categorical, and boolean features, making it well suited for given tasks.
+**Description:** The Health Insurance Cost & Risk Dataset is used to predict individual medical insurance charges using demographic, lifestyle, health, and socioeconomic factors. It contains 1,338 records and 12 attributes, including age, sex, BMI, number of children, smoking status, region, blood pressure, exercise frequency, pre-existing medical conditions, occupation risk, annual income, and the target variable charges.This dataset was selected because it contains a diverse combination of numerical, categorical, and boolean features, making it well suited for given tasks.
 
 1. The dataset contains 1,338 rows and 12 columns, including 6 numerical features (age, bmi, children, charges, blood_pressure, and annual_income), 5 categorical features (sex, smoker, region, exercise_frequency, and occupation_risk), and 1 boolean feature (pre_existing_condition).
 
